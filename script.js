@@ -23,8 +23,7 @@ function getDOB() {
         console.log(yearDiff);
     } else {
         yearDiff = yearDiff - 1;
-        if (monthDiff <= 0)
-            if (dateDiff > 0) monthDiff = 12 + monthDiff;
+        if (monthDiff <= 0) monthDiff = 12 + monthDiff;
             else monthDiff = 11 - monthDiff;
     }
     if (dateDiff < 0) {
